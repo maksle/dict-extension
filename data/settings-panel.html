@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <link rel="stylesheet" href="settings-panel.css">
+    <title>settings-panel</title>
+  </head>
+  <body>
+    <h1>Settings</h1>
+    <div id="dict-path">
+      <label>
+        Path prefix of dict executable:
+        <input id="dict-path-input" type="text" name="dict-path" value="" placeholder="/usr/bin" />
+      </label>
+      <br/>
+      <p>Resolves to: <span id="dict-path-display"></span></p>
+    </div>
+    <hr/>
+    <div id="auto-review">
+      <label>
+        Automatically add to review list
+        <input id="auto-review-checkbox" type="checkbox" value="auto-review" checked="checked">
+      </label>
+    </div>
+  </body>
+</html>

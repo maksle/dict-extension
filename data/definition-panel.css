@@ -1,0 +1,11 @@
+body {
+    background-color: rgb(245,245,245);
+}
+
+#add-to-list span {
+    color: blue;
+}
+
+#add-to-list:hover span {
+    text-decoration: underline;
+}

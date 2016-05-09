@@ -1,0 +1,16 @@
+{
+  "title": "Dict extension",
+  "name": "dict-extension",
+  "version": "0.0.1",
+  "description": "Lookup words by calling dict client on your machine in a subprocess. Save words in a list to review later.",
+  "main": "index.js",
+  "author": "Maksim Grinman",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+      "dict", "dictionary", "offline"
+  ]
+}

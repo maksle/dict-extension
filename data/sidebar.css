@@ -1,0 +1,13 @@
+.toggle, .remove {
+    font-size: .8em;
+    color: blue;
+}
+
+.toggle:hover, 
+.remove:hover {
+    text-decoration: underline;
+}
+
+#words li {
+    padding-bottom: 5px;
+}
