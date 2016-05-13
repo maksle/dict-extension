@@ -15,7 +15,7 @@ ss.storage.settings = ss.storage.settings || {
     autoReview: true
 };
 
-ss.on("OverQuote", function() {
+ss.on("OverQuota", function() {
     while (ss.quotaUsage > 1) {
         var word = ss.storage.words.pop();
         delete ss.storage.wordIndex[word];

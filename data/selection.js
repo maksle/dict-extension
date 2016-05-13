@@ -9,7 +9,3 @@ document.addEventListener('dblclick', function(event) {
         });
     }
 });
-
-self.port.on('alert', function(message) {
-    window.alert(message);
-});
