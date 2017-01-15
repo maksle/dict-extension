@@ -17,13 +17,6 @@ implement the dict protocol, if that is what you are looking for.
 
   [another_dict_extension]: https://addons.mozilla.org/en-US/firefox/addon/dict/
 
-However, I suspect the above mentioned add-on, which does implement a DICT
-client, will stop working at some point relatively soon, because like many
-useful add-ons, it uses `require('chrome')`, and Mozilla is [doing away with the
-add-on SDK][plans] and many of it's low level APIs.
-
-  [plans]: https://blog.mozilla.org/addons/2015/08/21/the-future-of-developing-firefox-add-ons/
-
 ### License
 Copyright (C) 2016 Maksim Grinman
 
